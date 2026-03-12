@@ -78,3 +78,109 @@ handcrafted drinks, and a relaxed atmosphere for locals and visitors.
 
 </body>
 </html>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+background:#f5f1ea;
+color:#333;
+}
+
+/* NAVBAR */
+
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 10%;
+background:#3b2f2f;
+color:white;
+}
+
+nav ul{
+display:flex;
+list-style:none;
+gap:20px;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+}
+
+/* HERO */
+
+.hero{
+height:80vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+background:url("https://images.unsplash.com/photo-1509042239860-f550ce710b93") center/cover;
+color:white;
+}
+
+.hero h2{
+font-size:48px;
+margin-bottom:10px;
+}
+
+.hero button{
+margin-top:20px;
+padding:12px 25px;
+border:none;
+background:#c69c6d;
+color:white;
+cursor:pointer;
+font-size:16px;
+}
+
+/* MENU */
+
+.menu{
+padding:80px 10%;
+text-align:center;
+}
+
+.menu-grid{
+margin-top:40px;
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+gap:20px;
+}
+
+.item{
+background:white;
+padding:25px;
+border-radius:8px;
+box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* ABOUT */
+
+.about{
+padding:80px 10%;
+text-align:center;
+background:#eee3d3;
+}
+
+/* LOCATION */
+
+.location{
+padding:80px 10%;
+text-align:center;
+}
+
+/* FOOTER */
+
+footer{
+text-align:center;
+padding:20px;
+background:#3b2f2f;
+color:white;
+}
