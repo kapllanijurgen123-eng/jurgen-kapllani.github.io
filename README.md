@@ -34,25 +34,25 @@
 <div class="item">
 <h3>Espresso</h3>
 <p>Rich double shot</p>
-<span>$3</span>
+<span>$100</span>
 </div>
 
 <div class="item">
 <h3>Latte</h3>
 <p>Smooth espresso with steamed milk</p>
-<span>$4.50</span>
+<span>$100</span>
 </div>
 
 <div class="item">
 <h3>Cold Brew</h3>
 <p>Slow brewed for 18 hours</p>
-<span>$4</span>
+<span>$100</span>
 </div>
 
 <div class="item">
 <h3>Cappuccino</h3>
 <p>Espresso with thick foam</p>
-<span>$4</span>
+<span>$100</span>
 </div>
 
 </div>
